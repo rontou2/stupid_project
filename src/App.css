@@ -1,0 +1,62 @@
+.App{
+height: 100vh;	
+}
+
+.title{
+display: flex;
+width:100%;
+justify-content: center;
+top:3%;
+font-weight: bold;
+font-size: 24px;
+}
+
+.starsLine{
+display: flex;
+width:100%;
+justify-content: center;
+}
+
+.starCard{
+height:100%;
+width: 15%;
+border-top: 5px solid black;
+border-left: 5px solid black;
+border-right: 5px solid black;
+border-radius: 15px 15px 0 0;
+}
+
+.bigCard{
+width: 35%;
+border: 5px solid black;
+border-radius: 15px;
+}
+
+.cardRow.topRow{
+bottom: calc(40% + 20px);
+}
+
+.cardRow{
+display: flex;
+height: 40%;
+flex-direction: row;
+justify-content: space-evenly;
+position: absolute;
+width: 100%;
+bottom: 0;
+}
+
+.starTitle{
+display: flex;
+width: calc(100% - 30px);
+justify-content: center;
+font-size: 24px;
+margin: 0 15px 0 15px;
+}
+
+.bigCardContents{
+margin: 15px 15px 0 15px;
+}
+
+.cardContents{margin: 10px;
+}
